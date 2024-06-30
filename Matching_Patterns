@@ -1,0 +1,1 @@
+%{NUMBER:dr4} (?<No_Pure_Numbers>(?!\d+).*?\s) %{NUMBER:ff4}
