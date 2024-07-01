@@ -1,1 +1,7 @@
-%{NUMBER:dr4} (?<No_Pure_Numbers>(?!\d+).*?\s) %{NUMBER:ff4}
+# GROK
+%{NUMBER:Numbers} (?<No_Pure_Numbers>(?!\d+).*?) (?<No_Square_Matches>(.*?(?!\[\d+\])))
+
+1 StRiNg abc[123] Delta
+2 StRiNg123 abc[123] Delta
+3 a12345 abc[123] Delta
+4 12345 abc[2] Delta
