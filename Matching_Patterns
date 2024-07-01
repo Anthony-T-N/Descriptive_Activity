@@ -1,5 +1,6 @@
 # GROK
 %{NUMBER:Numbers} (?<No_Pure_Numbers>(?!\d+).*?) (?<No_Square_Matches>(.*?(?!\[\d+\])))
+(?<Combo>(.*?(?!.*\d+)|(?!.*\[\d+\])))? %{DATA:Source} 
 
 1 StRiNg abc[123] Delta
 2 StRiNg123 abc[123] Delta
