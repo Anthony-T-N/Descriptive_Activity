@@ -1,8 +1,7 @@
 # GROK Expression
-%{NUMBER:Numbers} (?<No_Pure_Numbers>(?!\d+).*?) (?<No_Square_Matches>(.*?(?!\[\d+\])))
+%{NUMBER:Numbers} %{DATA:Generic} (?<No_Pure_Numbers>(?!\d+).*?) (?<No_Square_Matches>(.*?(?!\[\d+\])))
 (?<Combo>(.*?(?!.*\d+)|(?!.*\[\d+\])))?
 \b(?<Magic>[^\s]+)(\[\d+\]:?)
-
 
 # Testing Sample
 1 StRiNg abc[123]: Alpha
