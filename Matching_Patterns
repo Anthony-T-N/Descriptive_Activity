@@ -3,6 +3,7 @@
 (?<Combo>(.*?(?!.*\d+)|(?!.*\[\d+\])))?
 \b(?<Magic>[^\s]+)(\[\d+\]:?)
 
+
 # Testing Sample
 1 StRiNg abc[123]: Alpha
 2 StRiNg123 abc123[123] Beta
