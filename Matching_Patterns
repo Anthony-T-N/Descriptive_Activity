@@ -2,6 +2,7 @@
 %{NUMBER:Numbers} %{DATA:Generic} (?<No_Pure_Numbers>(?!\d+).*?) (?<No_Square_Matches>(.*?(?!\[\d+\])))
 (?<Combo>(.*?(?!.*\d+)|(?!.*\[\d+\])))?
 \b(?<Magic>[^\s]+)(\[\d+\]:?)
+(?<Quack>\d+):?
 
 # Testing Sample
 1 StRiNg abc[123]: Alpha
@@ -12,6 +13,7 @@
 6 111111[11111] aaaa
 7 aaaaa[aaaaa]
 8 dw46 agwg[[[5654g]]]
+9 t43tg 121434 324523
 0 e8Uu-*SArs:O:472JH79tyr
 0 HP;xs9igT!3=5Ujj8(G''sH
 0 djxq(OzxTfccV7q!f@-8ugj
