@@ -1,5 +1,7 @@
 # GROK Expression
 %{NUMBER:Numbers} %{DATA:Generic} (?<No_Pure_Numbers>(?!\d+).*?) (?<No_Square_Matches>(.*?(?!\[\d+\])))
+
+# Regex Expressions
 (?<Combo>(.*?(?!.*\d+)|(?!.*\[\d+\])))?
 \b(?<Magic>[^\s]+)(\[\d+\]:?)
 (?<Quack>\d+):?
