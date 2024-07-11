@@ -4,7 +4,7 @@
 # Regex Expressions
 (?<Combo>(.*?(?!.*\d+)|(?!.*\[\d+\])))?
 \b(?<Magic>[^\s]+)(\[\d+\]:?)
-(?<Quack>\d+):?
+(?<Quack>\d{3,}):?
 
 # Testing Sample
 1 StRiNg abc[123]: Alpha
