@@ -1,12 +1,12 @@
-# GROK Expression
+=== GROK Expression ===
 %{NUMBER:Numbers} %{DATA:Generic} (?<No_Pure_Numbers>(?!\d+).*?) (?<No_Square_Matches>(.*?(?!\[\d+\])))
 
-# Regex Expressions
+=== Regex Expressions ===
 (?<Combo>(.*?(?!.*\d+)|(?!.*\[\d+\])))?
 \b(?<Magic>[^\s]+)(\[\d+\]:?)
 (?<Quack>\d{3,}):?\s
 
-# Testing Sample
+=== Testing Sample ===
 1 StRiNg abc[123]: Alpha
 2 StRiNg123 abc123[123] Beta
 3 a12345 a1b2c3[123]:  Charlie
