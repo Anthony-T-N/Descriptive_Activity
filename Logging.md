@@ -1,6 +1,9 @@
-Agents
+Logger 
 - Sysmon
-- NXLog
 
+Forwarding Agents
+- NXLog
+- Fluentd 
+- Rsyslog
 
 curl -X POST 
