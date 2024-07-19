@@ -1,5 +1,5 @@
 === GROK Expression ===
-%{NUMBER:Numbers} %{DATA:Generic} (?<No_Pure_Numbers>(?!\d+).*?) (?<No_Square_Matches>(.*?(?!\[\d+\])))
+%{NUMBER:Line_Number} %{DATA:Generic} (?<No_Pure_Numbers>(?!\d+).*?) (?<No_Square_Matches>(.*?(?!\[\d+\])))
 
 === Regex Expressions ===
 (?<Combo>(.*?(?!.*\d+)|(?!.*\[\d+\])))?
