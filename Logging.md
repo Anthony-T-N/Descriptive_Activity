@@ -1,7 +1,9 @@
 Logger 
 - Sysmon
+- Windows Event Logging
 
-Forwarding Agents
+Log Forwarding Agents
+- Winlogbeat
 - NXLog
 - Fluentd 
 - Rsyslog
