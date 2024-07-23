@@ -13,7 +13,7 @@ Logger (How collection carried out)
 - Sysmon
 - Windows Event Logging
 
-Log Forwarding Agents
+Log Forwarding Agents (Bandwidth requirements)
 - Winlogbeat
 - NXLog
 - Fluentd 
