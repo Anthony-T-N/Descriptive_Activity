@@ -7,8 +7,9 @@ Collection
 - Microsoft AppLocker
 - Services
 - Microsoft Defender
+- Windows Error Reporting
 
-Logger 
+Logger (How collection carried out)
 - Sysmon
 - Windows Event Logging
 
