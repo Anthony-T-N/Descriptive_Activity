@@ -18,10 +18,12 @@ Log Forwarding Agents (Bandwidth requirements)
 - NXLog
 - Fluentd 
 - Rsyslog
-- Splunk forwarder
+- Splunk forwarders (Heavy/Univerisal forwarders)
 - Windows Event Forwarding (WEF)
 
 Centralised event logging facility
 - Rsyslog (Listening)
+
+
 
 curl -X POST 
