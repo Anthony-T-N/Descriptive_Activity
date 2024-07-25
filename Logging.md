@@ -1,17 +1,15 @@
 Collection
-- Account lockout
-- Account modifications
-- Event collection
-- Account logon
-- Process tracking
-- Microsoft AppLocker
-- Services
-- Microsoft Defender
-- Windows Error Reporting
+- Account lockout - Account modifications - Event collection - Account logon - Process tracking
+- Microsoft AppLocker - Services - Microsoft Defender - Windows Error Reporting
 
 Logger (How collection carried out)
-- Sysmon
-- Windows Event Logging
+
+- Networking Devices (Router/Switches)
+  -
+
+- Endpoint
+  - Sysmon
+  - Windows Event Logging
 
 Log Forwarding Agents (Bandwidth requirements)
 - Winlogbeat
