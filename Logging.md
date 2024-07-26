@@ -4,12 +4,13 @@ Collection
 
 Logger (How collection carried out)
 
-- Networking Devices (Router/Switches)
+- Networking Devices (Router/Switches/Firewalls)
   -
 
 - Endpoint
   - Sysmon
   - Windows Event Logging
+  - Nessus
 
 Log Forwarding Agents (Bandwidth requirements)
 - Winlogbeat
