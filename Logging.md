@@ -5,7 +5,7 @@ Collection
 Logger (How collection carried out)
 
 - Networking Devices (Router/Switches/Firewalls)
-  -
+  - A
 
 - Endpoint
   - Sysmon
