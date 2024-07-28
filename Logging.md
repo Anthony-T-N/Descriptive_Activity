@@ -23,6 +23,8 @@ Log Forwarding Agents (Bandwidth requirements)
 Centralised event logging facility
 - Rsyslog (Listening)
 
+Business:
+Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
 
 
 curl -X POST 
