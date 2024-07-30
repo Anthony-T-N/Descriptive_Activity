@@ -22,15 +22,25 @@ R1(config)# logging on
   - Nessus
 
 Log Forwarding Agents (Bandwidth requirements)
+- SFTP
 - Winlogbeat
 - NXLog
 - Fluentd 
 - Rsyslog
-- Splunk forwarders (Heavy/Univerisal forwarders)
+- Splunk forwarders (Heavy/Universal forwarders)
 - Windows Event Forwarding (WEF)
 
 Centralised event logging facility
 - Rsyslog (Listening)
+
+Logging Formats
+- JSON
+- Windows Event logs
+- CEF
+- CLF
+- ELF
+- XML
+- CSV
 
 Business:
 Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
