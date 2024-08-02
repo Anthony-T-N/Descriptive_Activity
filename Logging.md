@@ -44,6 +44,10 @@ Logging Formats
 - CSV
 
 Syslog
+- RFC 3164
+- RFC 5424
+- RFC 6587
+- RFC 5425
 
 Business:
 Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
