@@ -36,10 +36,10 @@ Centralised event logging facility
 
 Logging Formats
 - JSON
-- Windows Event logs
-- CEF
+- Windows Event log
+- CEF (Common Event Format)
 - CLF
-- ELF
+- ELF (Extended Log Format)
 - XML
 - CSV
 
