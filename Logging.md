@@ -38,10 +38,10 @@ Logging Formats
 - JSON
 - Windows Event log
 - CEF (Common Event Format)
-- CLF
+- CLF (Common Log Format)
 - ELF (Extended Log Format)
-- XML
-- CSV
+- XML (Extensible Markup Language)
+- CSV (Comma-separated values)
 
 Syslog
 - RFC 3164
