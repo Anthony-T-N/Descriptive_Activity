@@ -30,13 +30,12 @@ Log Forwarding Agents (Bandwidth requirements)
 - Splunk forwarders (Heavy/Universal forwarders)
 - Windows Event Forwarding (WEF)
 - Stroom Agent
-- 
 
 Centralised event logging facility
 - Rsyslog (Listening)
 
 Logging Formats
-- JSON
+- JSON (JavaScript Object Notation)
 - Windows Event log
 - CEF (Common Event Format)
 - CLF (Common Log Format)
