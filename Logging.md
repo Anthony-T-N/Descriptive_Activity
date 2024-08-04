@@ -30,6 +30,7 @@ Log Forwarding Agents (Bandwidth requirements)
 - Splunk forwarders (Heavy/Universal forwarders)
 - Windows Event Forwarding (WEF)
 - Stroom Agent
+- 
 
 Centralised event logging facility
 - Rsyslog (Listening)
