@@ -19,7 +19,7 @@ R1(config)# logging on
 - Endpoint
   - Sysmon
   - Windows Event Logging
-  - Nessus
+  - Nessus Scanners
 
 Log Forwarding Agents (Bandwidth requirements)
 - SFTP
