@@ -4,6 +4,8 @@ Collection
 
 Logger (How collection carried out)
 
+### Network
+
 - Networking Devices (Router/Switches/Firewalls)
   - A
 ```
@@ -16,10 +18,16 @@ R1(config)# logging trap x.x.x.x transport tcp port x
 R1(config)# logging on
 ```
 
-- Endpoint
+- Intrusion detection system
+
+- 
+
+- Endpoint Devices
   - Sysmon
   - Windows Event Logging
   - Nessus Scanners
+
+### Sample
 
 Log Forwarding Agents (Bandwidth requirements)
 - SFTP
