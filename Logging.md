@@ -7,7 +7,7 @@ Logger (How collection carried out)
 ### Network
 
 - Networking Devices (Router/Switches/Firewalls)
-  - A
+  - 
 ```
 R1# configure terminal
 R1(config)# logging <Host IP Address>
