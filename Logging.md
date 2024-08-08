@@ -29,6 +29,10 @@ R1(config)# logging on
 
 ### Sample
 
+Manual fowarding
+-  `curl -X POST`
+-  `logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"`
+
 Log Forwarding Agents (Bandwidth requirements)
 - SFTP
 - Winlogbeat
@@ -50,16 +54,15 @@ Logging Formats
 - ELF (Extended Log Format)
 - XML (Extensible Markup Language)
 - CSV (Comma-separated values)
-
-Syslog
-- RFC 3164
-- RFC 5424
-- RFC 6587
-- RFC 5425
+- Syslog
+  - RFC 3164
+  - RFC 5424
+  - RFC 6587
+  - RFC 5425
 
 Business:
 Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
 
 Open-sourced focused
 
-curl -X POST 
+
