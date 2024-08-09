@@ -18,6 +18,8 @@ R1(config)# logging on
 
 - Intrusion detection system
 
+- Intrusion prevention system
+
 - 
 
 - Endpoint Devices
