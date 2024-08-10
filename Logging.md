@@ -1,6 +1,7 @@
 Collection
 - Account lockout - Account modifications - Event collection - Account logon - Process tracking
 - Microsoft AppLocker - Services - Microsoft Defender - Windows Error Reporting
+- https://github.com/TonyPhipps/SIEM/blob/master/Logging.md
 
 Logger (How collection carried out)
 
@@ -17,6 +18,8 @@ R1(config)# logging on
 ```
 
 - Intrusion detection system
+  - Suricata
+  - Zeek
 
 - Intrusion prevention system
 
