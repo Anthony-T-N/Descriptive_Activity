@@ -22,8 +22,8 @@ R1(config)# logging on
   - Zeek
 
 - Intrusion prevention system
+-   
 
-- 
 
 - Endpoint Devices
   - Sysmon
