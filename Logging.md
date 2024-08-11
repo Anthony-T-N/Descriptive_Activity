@@ -19,6 +19,10 @@ R1(config)# logging on
 
 - Intrusion detection system
   - Suricata
+  ```
+  sudo nano /etc/suricata/suricata.yaml
+  alert http any any -> any any (http_response_line; content:"403 Forbidden"; sid:1;)
+  ```
   - Zeek
 
 - Intrusion prevention system
@@ -62,6 +66,8 @@ Logging Formats
   - RFC 5424
   - RFC 6587
   - RFC 5425
+
+SSL/TLS
 
 Business:
 Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
