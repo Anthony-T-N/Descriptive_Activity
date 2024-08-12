@@ -26,11 +26,11 @@ R1(config)# logging on
   - Zeek
 
 - Intrusion prevention system
--   
-
+  -   
 
 - Endpoint Devices
-  - Sysmon
+  - Sysmon (Windows)
+  - Auditd (Linux)
   - Windows Event Logging
   - Nessus Scanners
 
