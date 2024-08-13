@@ -6,7 +6,7 @@ Collection
 Logger (How collection carried out)
 
 ### Network
-- Networking Devices (Router/Switches/Firewalls)
+- Networking Devices/Logs (Router/Switches/Firewalls)
 ```
 R1# configure terminal
 R1(config)# logging <Host IP Address>
@@ -28,7 +28,7 @@ R1(config)# logging on
 - Intrusion prevention system
   -   
 
-- Endpoint Devices
+- Endpoint Devices/Logs (Windows/Linux Endpoints)
   - Sysmon (Windows)
   - Auditd (Linux)
   - Windows Event Logging
