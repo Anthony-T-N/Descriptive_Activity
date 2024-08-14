@@ -5,8 +5,8 @@ Collection
 
 Logger (How collection carried out)
 
-### Network
-- Networking Devices/Logs (Router/Switches/Firewalls)
+### Sources
+- Networking Infrastructure/ (Router/Switches/Firewalls)
 ```
 R1# configure terminal
 R1(config)# logging <Host IP Address>
@@ -17,22 +17,22 @@ R1(config)# logging trap x.x.x.x transport tcp port x
 R1(config)# logging on
 ```
 
-- Intrusion detection system
-  - Suricata
-  ```
-  sudo nano /etc/suricata/suricata.yaml
-  alert http any any -> any any (http_response_line; content:"403 Forbidden"; sid:1;)
-  ```
-  - Zeek
-
-- Intrusion prevention system
-  -   
-
-- Endpoint Devices/Logs (Windows/Linux Endpoints)
+- Endpoint Devices & Application Logs (Windows/Linux Endpoints)
   - Sysmon (Windows)
   - Auditd (Linux)
   - Windows Event Logging
   - Nessus Scanners
+
+- Other
+  - Intrusion detection system
+    - Suricata
+    ```
+    sudo nano /etc/suricata/suricata.yaml
+    alert http any any -> any any (http_response_line; content:"403 Forbidden"; sid:1;)
+    ```
+    - Zeek
+  - Intrusion prevention system
+    -   
 
 ### Sample
 
