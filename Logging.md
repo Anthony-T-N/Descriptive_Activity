@@ -5,8 +5,8 @@ Collection
 
 Logger (How collection carried out)
 
-### Sources
-- Networking Infrastructure/ (Router/Switches/Firewalls)
+### Logging Sources
+- Networking Infrastructure (Router/Switches/Firewalls)
 ```
 R1# configure terminal
 R1(config)# logging <Host IP Address>
@@ -31,8 +31,9 @@ R1(config)# logging on
     alert http any any -> any any (http_response_line; content:"403 Forbidden"; sid:1;)
     ```
     - Zeek
+      
   - Intrusion prevention system
-    -   
+    - d
 
 ### Sample
 
