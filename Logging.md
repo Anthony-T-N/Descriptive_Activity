@@ -74,8 +74,11 @@ Logging Formats
   - RFC 6587
   - RFC 5425
  
-attributes 
+Attributes
+`<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
+ISO8601 OR EPOCH Milliseconds
 
+Log encryption
 SSL/TLS
 
 Business:
