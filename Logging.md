@@ -1,9 +1,9 @@
-Collection
+## Collection
 - Account lockout - Account modifications - Event collection - Account logon - Process tracking
 - Microsoft AppLocker - Services - Microsoft Defender - Windows Error Reporting
 - https://github.com/TonyPhipps/SIEM/blob/master/Logging.md
 
-Logger (How collection carried out)
+## Logger (How collection carried out)
 
 ### Logging Sources
 - Networking Infrastructure (Router/Switches/Firewalls)
@@ -36,9 +36,6 @@ R1(config)# logging on
     - Suricata
 
 Mail
-
-
-
 
 
 ### Sample
@@ -74,7 +71,7 @@ Logging Formats
   - RFC 6587
   - RFC 5425
  
-Attributes
+Logging Attributes
 `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
 ISO8601 OR EPOCH Milliseconds
 
