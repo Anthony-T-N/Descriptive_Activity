@@ -6,6 +6,17 @@
 ## Logger (How collection carried out)
 
 ### Logging Sources
+
+| # | Splunk |
+| - | ----------- |
+| 1 | Application logs       |
+| 2 | System logs        |
+| 3 | Security logs        |
+| 4 | Network log data        |
+| 5 | Audit logs        |
+| 6 | Database log data        |
+| 7 | Text        |
+
 - Networking Infrastructure (Router/Switches/Firewalls)
 ```
 R1# configure terminal
@@ -72,8 +83,8 @@ Logging Formats
   - RFC 5425
  
 Logging Attributes
-`<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
-ISO8601 OR EPOCH Milliseconds
+- `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
+- ISO8601 OR EPOCH Milliseconds
 
 Log encryption
 SSL/TLS
