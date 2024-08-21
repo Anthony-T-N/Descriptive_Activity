@@ -46,9 +46,6 @@ R1(config)# logging on
   - Intrusion prevention system
     - Suricata
 
-Mail
-
-
 ### Sample
 
 Manual fowarding
