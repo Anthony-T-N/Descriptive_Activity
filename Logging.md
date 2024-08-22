@@ -9,7 +9,7 @@
 
 | # | Splunk |
 | - | ----------- |
-| 1 | Application logs       |
+| 1 | Application logs       | Application
 | 2 | System logs        |
 | 3 | Security logs        |
 | 4 | Network log data        |
