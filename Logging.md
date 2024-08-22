@@ -7,15 +7,15 @@
 
 ### Logging Sources
 
-| # | Splunk |
-| - | ----------- |
-| 1 | Application logs       | Application
-| 2 | System logs        |
-| 3 | Security logs        |
-| 4 | Network log data        |
-| 5 | Audit logs        |
-| 6 | Database log data        |
-| 7 | Text        |
+| # | Splunk | ncsc | owasp |
+| - | ----------- | ----------- | ----------- |
+| 1 | Application logs       | Application | Client software |
+| 2 | System logs        | | |
+| 3 | Security logs        | | NIDS and HIDS |
+| 4 | Network log data        | Network  | |
+| 5 | Audit logs        | | |
+| 6 | Database log data        | | Database applications |
+| 7 | Text        | Cloud  | |
 
 - Networking Infrastructure (Router/Switches/Firewalls)
 ```
