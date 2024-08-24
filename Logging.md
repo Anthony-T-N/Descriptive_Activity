@@ -8,6 +8,7 @@
 ### Logging Sources
 
 - Networking Infrastructure (Router/Switches/Firewalls)
+- Sample configuration
 ```
 R1# configure terminal
 R1(config)# logging <Host IP Address>
@@ -23,8 +24,9 @@ R1(config)# logging on
   - Auditd (Linux)
   - Windows Event Logging
   - Nessus Scanners
+  - Application Logging
 
-- Other
+- Security Controls
   - Intrusion detection system
     - Suricata
     ```
@@ -68,6 +70,7 @@ Log Forwarding Agents (Bandwidth requirements)
 
 Centralised event logging facility
 - Rsyslog (Listening)
+- Log Protection, Log Retention
 
 Logging Formats
 - JSON (JavaScript Object Notation)
@@ -86,7 +89,7 @@ Logging Formats
 Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
 - ISO8601 OR EPOCH Milliseconds
-- UTC
+- UTC (Clock Synchronization - NTP)
 
 Log encryption
 SSL/TLS
