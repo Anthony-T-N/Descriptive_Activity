@@ -7,16 +7,6 @@
 
 ### Logging Sources
 
-| # | Splunk | ncsc | owasp |
-| - | ----------- | ----------- | ----------- |
-| 1 | Application logs       | Application | Client software |
-| 2 | System logs        | | |
-| 3 | Security logs        | | NIDS and HIDS |
-| 4 | Network log data        | Network  | |
-| 5 | Audit logs        | | |
-| 6 | Database log data        | | Database applications |
-| 7 | Text        | Cloud  | |
-
 - Networking Infrastructure (Router/Switches/Firewalls)
 ```
 R1# configure terminal
@@ -46,7 +36,21 @@ R1(config)# logging on
   - Intrusion prevention system
     - Suricata
 
+### Log Types
+
+| # | Splunk | ncsc | owasp |
+| - | ----------- | ----------- | ----------- |
+| 1 | Application logs       | Application | Client software |
+| 2 | System logs        | | |
+| 3 | Security logs        | | NIDS and HIDS |
+| 4 | Network log data        | Network  | |
+| 5 | Audit logs        | | |
+| 6 | Database log data        | | Database applications |
+| 7 | Text        | Cloud  | |
+
 ### Sample
+
+
 
 Manual fowarding
 -  `curl -X POST`
