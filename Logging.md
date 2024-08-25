@@ -50,10 +50,6 @@ R1(config)# logging on
 | 6 | Database log data        | | Database applications |
 | 7 | Text        | Cloud  | |
 
-### Sample
-
-
-
 Manual fowarding
 -  `curl -X POST`
 -  `logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"`
@@ -88,7 +84,7 @@ Logging Formats
  
 Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
-- ISO8601 OR EPOCH Milliseconds
+- ISO8601 (YYYY-MM-DDTHH:MM:SS.SSSZ) OR EPOCH Milliseconds
 - UTC (Clock Synchronization - NTP)
 
 Log encryption
