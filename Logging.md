@@ -66,6 +66,7 @@ Log Forwarding Agents (Bandwidth requirements)
 
 Centralised event logging facility
 - Rsyslog (Listening)
+- /etc/rsyslog.conf
 - Log Protection, Log Retention
 
 Logging Formats
