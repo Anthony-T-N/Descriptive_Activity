@@ -95,5 +95,3 @@ Business:
 Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
 
 Open-sourced focused
-
-
