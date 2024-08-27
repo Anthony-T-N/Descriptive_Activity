@@ -8,7 +8,7 @@
 ### Logging Sources
 
 - Networking Infrastructure (Router/Switches/Firewalls)
-- Sample configuration
+- Sample configuratio
 ```
 R1# configure terminal
 R1(config)# logging <Host IP Address>
