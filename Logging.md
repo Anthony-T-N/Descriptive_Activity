@@ -8,16 +8,16 @@
 ### Logging Sources
 
 - Networking Infrastructure (Router/Switches/Firewalls)
-- Sample configuration
-```
-R1# configure terminal
-R1(config)# logging <Host IP Address>
-R1(config)# logging trap error (Severity levels 0-7)
-R1(config)# logging origin-id hostname
-R1(config)# logging facility localx (Type of device identifier)
-R1(config)# logging trap x.x.x.x transport tcp port x
-R1(config)# logging on
-```
+  - Sample configuration
+  ```
+  R1# configure terminal
+  R1(config)# logging <Host IP Address>
+  R1(config)# logging trap error (Severity levels 0-7)
+  R1(config)# logging origin-id hostname
+  R1(config)# logging facility localx (Type of device identifier)
+  R1(config)# logging trap x.x.x.x transport tcp port x
+  R1(config)# logging on
+  ```
 
 - Endpoint Devices & Application Logs (Windows/Linux Endpoints)
   - Sysmon (Windows)
