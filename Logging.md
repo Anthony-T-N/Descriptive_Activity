@@ -85,7 +85,7 @@ Logging Formats
  
 Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
-- ISO8601 (YYYY-MM-DDTHH:MM:SS.SSSZ) OR EPOCH Milliseconds
+- ISO8601 (YYYY-MM-DDTHH:MM:SS.SSSZ) OR EPOCH Milliseconds (Detect logs published in the future)
 - UTC (Clock Synchronization - NTP)
 
 Log encryption
