@@ -82,9 +82,13 @@ Logging Formats
   - RFC 5424
   - RFC 6587
   - RFC 5425
+
+Log sorting/seperation
+- 
  
 Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
+- Detecting irregularities in attributes ()
 - ISO8601 (YYYY-MM-DDTHH:MM:SS.SSSZ) OR EPOCH Milliseconds (Detect logs published in the future)
 - UTC (Clock Synchronization - NTP)
 
