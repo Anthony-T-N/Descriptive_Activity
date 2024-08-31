@@ -85,6 +85,13 @@ Logging Formats
 
 Log sorting/seperation
 - 
+
+Logging Volume
+- Bandwidth
+- Storage
+- Memory
+- CPU
+
  
 Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
