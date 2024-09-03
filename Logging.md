@@ -88,9 +88,9 @@ Log sorting/seperation
 - 
 
 Logging Volume
-- Work out maximum
-  - Networking
-  - Storage
+- Work out maximum value 
+  - Networking (Transfer)
+  - Storage (Log placement
   - Memory
   - CPU
 
