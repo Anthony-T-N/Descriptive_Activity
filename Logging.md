@@ -90,8 +90,8 @@ Log sorting/seperation
 Logging Volume
 - Work out maximum value 
   - Networking (Transfer)
-  - Storage (Log placement
-  - Memory
+  - Storage (Log placement)
+  - Memory (Processing)
   - CPU
 
 Logging Attributes
