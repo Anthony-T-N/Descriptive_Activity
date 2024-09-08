@@ -96,7 +96,7 @@ Logging Volume
 
 Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
-- Detecting irregularities in attributes ()
+- Detecting irregularities in attributes () ggf
 - Correct source environment
 - ISO8601 (YYYY-MM-DDTHH:MM:SS.SSSZ) OR EPOCH Milliseconds (Detect logs published in the future)
 - UTC (Clock Synchronization - NTP)
