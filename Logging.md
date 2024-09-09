@@ -92,11 +92,11 @@ Logging Volume
   - Networking (Transfer)
   - Storage (Log placement)
   - Memory (Processing)
-  - CPU
+  - CPU (Processing)
 
 Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
-- Detecting irregularities in attributes () ggf
+- Detecting irregularities in attributes
 - Correct source environment
 - ISO8601 (YYYY-MM-DDTHH:MM:SS.SSSZ) OR EPOCH Milliseconds (Detect logs published in the future)
 - UTC (Clock Synchronization - NTP)
