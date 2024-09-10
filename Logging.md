@@ -85,7 +85,7 @@ Logging Formats
   - RFC 5425
 
 Log sorting/seperation
-- 
+- Regex different standards
 
 Logging Volume
 - Work out maximum value 
