@@ -86,6 +86,7 @@ Logging Formats
 
 Log sorting/seperation
 - Regex different standards
+- 
 
 Logging Volume
 - Work out maximum value 
@@ -108,3 +109,7 @@ Business:
 Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
 
 Open-sourced focused
+
+TCP/IP Model
+
+
