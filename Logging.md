@@ -28,11 +28,13 @@
 
 - Security Controls
   - Intrusion detection system
-    - Suricata
+    - Suricata (NIDS)
     ```
     sudo nano /etc/suricata/suricata.yaml
     alert http any any -> any any (http_response_line; content:"403 Forbidden"; sid:1;)
     ```
+    - Wazuh agent (HIDS)
+
     Separate???
     - Zeek
       
