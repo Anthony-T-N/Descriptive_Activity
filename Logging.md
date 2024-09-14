@@ -88,7 +88,7 @@ Logging Formats
 
 Log sorting/seperation
 - Regex different standards
-- Source tagging
+- Source enviroment tagging
 
 Logging Volume
 - Work out maximum value 
@@ -101,7 +101,9 @@ Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
 - Detecting irregularities in attributes
 - Correct source environment
-- ISO8601 (YYYY-MM-DDTHH:MM:SS.SSSZ) OR EPOCH Milliseconds (Detect logs published in the future)
+- ISO8601 (YYYY-MM-DDTHH:MM:SS.SSSZ) OR EPOCH Milliseconds
+  - Detect logs published in the future
+  - Missing sections
 - UTC (Clock Synchronization - NTP)
 
 Log encryption
