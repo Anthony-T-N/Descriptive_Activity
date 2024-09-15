@@ -53,9 +53,12 @@
 | 6 | Database log data        | | Database applications |
 | 7 | Text        | Cloud  | |
 
-Manual fowarding
+Manual fowarding/Collection
 -  `curl -X POST`
 -  `logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"`
+
+-  `sftp -i <KEY_FILE> user@<IP_ADDRESS>`
+-  `get -R .`
 
 Log Forwarding Agents (Bandwidth requirements)
 - SFTP
