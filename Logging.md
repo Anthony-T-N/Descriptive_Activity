@@ -25,6 +25,14 @@
   - Windows Event Logging
   - Nessus Scanners
   - Application Logging
+ 
+```
+- name: Installer
+  win_package:
+    path: C:\agent.exe
+    arguments: /install
+    state: present
+```
 
 - Security Controls
   - Intrusion detection system
@@ -111,6 +119,7 @@ Logging Attributes
 
 Log encryption
 SSL/TLS
+Certs
 
 Business:
 Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
