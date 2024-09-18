@@ -31,7 +31,8 @@
   - Windows Event Logging
   - Nessus Scanners
   - Application Logging
- 
+
+Deployment to endpoints
 ```
 - name: Installer
   win_package:
@@ -109,9 +110,11 @@ Log sorting/seperation
 
 Logging Volume
 - Work out maximum value 
-  - Networking (Transfer)
+  - Networking (Bandwidth vs. Throughput)
   - Storage (Log placement)
+    - `df -h`
   - Memory (Processing)
+    - `free -gt`
   - CPU (Processing)
 
 Logging Attributes
