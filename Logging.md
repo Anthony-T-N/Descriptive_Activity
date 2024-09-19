@@ -18,7 +18,6 @@
   R1(config)# logging trap x.x.x.x transport tcp port x
   R1(config)# logging on
   ```
-
 - Endpoint Devices & Application Logs (Windows/Linux Endpoints)
   - Sysmon (Windows)
     - Detailed logging than WEL: Hash collection, network connection details.
@@ -32,17 +31,17 @@
   - Nessus Scanners
   - Application Logging
 
-Deployment to endpoints
-```
-- name: Installer
-  win_package:
-    path: C:\agent.exe
-    arguments: /install
-    state: present
-```
+- Agent Deployment (Ansible)
+  ```
+  - name: Installer
+    win_package:
+      path: C:\agent.exe
+      arguments: /install
+      state: present
+  ```
 
 - Security Controls
-  - Intrusion detection system
+  - Intrusion detection system (IDS)
     - Suricata (NIDS)
     ```
     sudo nano /etc/suricata/suricata.yaml
@@ -53,27 +52,34 @@ Deployment to endpoints
     Separate???
     - Zeek
       
-  - Intrusion prevention system
+  - Intrusion prevention system (IPS)
     - Suricata
 
 ### Log Types
 
 | # | Splunk | ncsc | owasp |
 | - | ----------- | ----------- | ----------- |
-| 1 | Application logs       | Application | Client software |
-| 2 | System logs        | | |
-| 3 | Security logs        | | NIDS and HIDS |
-| 4 | Network log data        | Network  | |
-| 5 | Audit logs        | | |
-| 6 | Database log data        | | Database applications |
-| 7 | Text        | Cloud  | |
+| 1 | Application logs  | Application | Client software |
+| 2 | System logs       | Host | |
+| 3 | Security logs     | | NIDS, HIDS, Firewalls |
+| 4 | Network log data  | Network | |
+| 5 | Audit logs        | Authentication and access | |
+| 6 | Database log data | | Database applications |
+| 7 | Text              | Cloud  | |
+
+- https://docs.zeek.org/en/master/logs/index.html
+- https://docs.splunk.com/Documentation/ES/7.3.2/Install/Datamodels
 
 Manual fowarding/Collection
--  `curl -X POST`
--  `logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"`
+```
+curl -X POST
+logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"
+```
 
--  `sftp -i <KEY_FILE> user@<IP_ADDRESS>`
--  `get -R .`
+```
+sftp -i <KEY_FILE> user@<IP_ADDRESS>
+get -R .
+```
 
 Log Forwarding Agents (Bandwidth requirements)
 - SFTP
