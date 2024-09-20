@@ -32,12 +32,17 @@
   - Application Logging
 
 - Agent Deployment (Ansible)
+Check Operating system
   ```
   - name: Installer
     win_package:
       path: C:\agent.exe
       arguments: /install
       state: present
+   - name: Installer
+        apt:
+          name: agent
+          state: latest
   ```
 
 - Security Controls
