@@ -75,7 +75,7 @@ Check Operating system
 - https://docs.zeek.org/en/master/logs/index.html
 - https://docs.splunk.com/Documentation/ES/7.3.2/Install/Datamodels
 
-Manual fowarding/Collection
+Basic Fowarding/Collection Checks
 ```
 curl -X POST
 logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"
