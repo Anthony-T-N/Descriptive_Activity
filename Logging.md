@@ -122,6 +122,12 @@ Log sorting/seperation
 Logging Volume
 - Work out maximum value 
   - Networking (Bandwidth vs. Throughput)
+    - ```
+      # On server (Listening for connections
+      iperf -s
+      # On client (Connect to server)
+      iperf -c <server_ip_address>
+      ``` 
   - Storage (Log placement)
     - `df -h`
   - Memory (Processing)
