@@ -110,10 +110,10 @@ Logging Formats
 - XML (Extensible Markup Language)
 - CSV (Comma-separated values)
 - Syslog
-  - RFC 3164
-  - RFC 5424
-  - RFC 6587
-  - RFC 5425
+  - RFC 3164 (BSD Syslog)
+  - RFC 5424 (Syslog Protocol)
+  - RFC 6587 (Transport of Syslog Messages over TCP)
+  - RFC 5425 (Transport of Syslog Messages over TLS)
 
 Log sorting/seperation
 - Regex different standards
