@@ -148,10 +148,13 @@ Log encryption
 SSL/TLS
 Certs
 
+
 Business:
 Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
 
+
 Open-sourced focused
+
 
 TCP/IP Model
 
