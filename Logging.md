@@ -34,14 +34,14 @@
 - Agent Deployment (Ansible)
 Check Operating system
   ```
-  - name: Installer
+  - name: Install Sysmon (Windows)
     win_package:
       path: C:\agent.exe
       arguments: /install
       state: present
-   - name: Installer
+   - name: Install Auditd (Linux)
         apt:
-          name: agent
+          name: audit
           state: latest
   ```
 
