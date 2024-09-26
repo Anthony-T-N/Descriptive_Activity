@@ -31,19 +31,19 @@
   - Nessus Scanners
   - Application Logging
 
-- Agent Deployment (Ansible)
-Check Operating system
-  ```
-  - name: Install Sysmon (Windows)
-    win_package:
-      path: C:\agent.exe
-      arguments: /install
-      state: present
-   - name: Install Auditd (Linux)
-        apt:
-          name: audit
-          state: latest
-  ```
+
+```
+Endpoint Agent Deployment (Ansible)
+- name: Install Sysmon (Windows)
+  win_package:
+    path: C:\agent.exe
+    arguments: /install
+    state: present
+ - name: Install Auditd (Linux)
+      apt:
+        name: audit
+        state: latest
+```
 
 - Security Controls
   - Intrusion detection system (IDS)
