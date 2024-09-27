@@ -31,7 +31,6 @@
   - Nessus Scanners
   - Application Logging
 
-
 ```
 Endpoint Agent Deployment (Ansible)
 - name: Install Sysmon (Windows)
@@ -142,7 +141,9 @@ Logging Attributes
   - Detect logs published in the future
   - Missing sections
 - UTC (Clock Synchronization - NTP)
+- 
 - Missing fields (Adhere to schema)
+
 
 Log encryption
 SSL/TLS
