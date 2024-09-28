@@ -117,6 +117,7 @@ Logging Formats
 Log sorting/seperation
 - Regex different standards
 - Source enviroment tagging
+- Parsing of format
 
 Logging Volume
 - Work out maximum value 
