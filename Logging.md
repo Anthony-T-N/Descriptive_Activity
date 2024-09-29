@@ -144,6 +144,10 @@ Logging Attributes
 - UTC (Clock Synchronization - NTP)
 - Missing fields (Adhere to schema)
 
+Logging Validation
+- Sort by enviroment by sourcetype
+- Percentage of sourcetype from enviroment.
+
 Log encryption
 SSL/TLS
 Certs
