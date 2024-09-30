@@ -144,6 +144,11 @@ Logging Attributes
 - UTC (Clock Synchronization - NTP)
 - Missing fields (Adhere to schema)
 
+SIEM Data Ingestion
+- Microsoft Sentinel 
+- Google Security Operations SIEM
+- Splunk ES
+
 Logging Validation
 - Sort by enviroment by sourcetype
 - Percentage of sourcetype from enviroment.
