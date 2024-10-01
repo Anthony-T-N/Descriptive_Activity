@@ -52,12 +52,15 @@ Endpoint Agent Deployment (Ansible)
     alert http any any -> any any (http_response_line; content:"403 Forbidden"; sid:1;)
     ```
     - Wazuh agent (HIDS)
+    - Snort
+    - Sagan
 
     Separate???
     - Zeek
       
   - Intrusion prevention system (IPS)
     - Suricata
+    - Snort
 
 ### Log Types
 
