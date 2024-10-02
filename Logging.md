@@ -19,7 +19,7 @@
   R1(config)# logging on
   ```
 - Endpoint Devices & Application Logs (Windows/Linux Endpoints)
-  - Sysmon (Windows)
+  - Sysmon (Windows) - "Not hardened against an attacker with admin rights"
     - Detailed logging than WEL: Hash collection, network connection details.
   ```
   Install: sysmon64 -i
