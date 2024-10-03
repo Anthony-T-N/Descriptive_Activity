@@ -19,8 +19,9 @@
   R1(config)# logging on
   ```
 - Endpoint Devices & Application Logs (Windows/Linux Endpoints)
-  - Sysmon (Windows) - "Not hardened against an attacker with admin rights"
+  - Sysmon (Windows)
     - Detailed logging than WEL: Hash collection, network connection details.
+    - "Not hardened against an attacker with admin rights"
   ```
   Install: sysmon64 -i
   Update configuration: sysmon64 -c [<configfile>]
@@ -54,6 +55,8 @@ Endpoint Agent Deployment (Ansible)
     - Wazuh agent (HIDS)
     - Snort
     - Sagan
+    - Cisco Firepower
+    - McAfee Network Security Platform
 
     Separate???
     - Zeek
@@ -61,6 +64,8 @@ Endpoint Agent Deployment (Ansible)
   - Intrusion prevention system (IPS)
     - Suricata
     - Snort
+    - Check Point IPS
+    - Palo Alto Networks Next-Generation Firewall (NGFW)
 
 ### Log Types
 
@@ -166,5 +171,3 @@ Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
 Open-sourced focused
 
 TCP/IP Model
-
-
