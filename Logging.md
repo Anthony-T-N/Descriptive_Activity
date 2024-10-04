@@ -89,6 +89,8 @@ logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"
 ```
 
 ```
+nc -v
+```
 sftp -i <KEY_FILE> user@<IP_ADDRESS>
 get -R .
 ```
