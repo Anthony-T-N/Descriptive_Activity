@@ -97,6 +97,10 @@ sftp -i <KEY_FILE> user@<IP_ADDRESS>
 get -R .
 ```
 
+```
+nslookup
+```
+
 Log Forwarding Agents (Bandwidth requirements)
 - SFTP
 - Winlogbeat
@@ -106,6 +110,8 @@ Log Forwarding Agents (Bandwidth requirements)
 - Splunk forwarders (Heavy/Universal forwarders)
 - Windows Event Forwarding (WEF)
 - Stroom Agent
+
+Establish test connectivity with remote server.
 
 Centralised event logging facility
 - Rsyslog (Listening)
