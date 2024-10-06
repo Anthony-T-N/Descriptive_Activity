@@ -82,25 +82,6 @@ Endpoint Agent Deployment (Ansible)
 - https://docs.zeek.org/en/master/logs/index.html
 - https://docs.splunk.com/Documentation/ES/7.3.2/Install/Datamodels
 
-Basic Fowarding/Collection Checks
-```
-curl -X POST
-logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"
-```
-
-```
-nc -v <IP.ADDRESS> <PORT_NUMBER>
-```
-
-```
-sftp -i <KEY_FILE> user@<IP_ADDRESS>
-get -R .
-```
-
-```
-nslookup
-```
-
 Log Forwarding Agents (Bandwidth requirements)
 - SFTP
 - Winlogbeat
@@ -110,8 +91,6 @@ Log Forwarding Agents (Bandwidth requirements)
 - Splunk forwarders (Heavy/Universal forwarders)
 - Windows Event Forwarding (WEF)
 - Stroom Agent
-
-Establish test connectivity with remote server.
 
 Centralised event logging facility
 - Rsyslog (Listening)
@@ -131,6 +110,28 @@ Logging Formats
   - RFC 5424 (Syslog Protocol)
   - RFC 6587 (Transport of Syslog Messages over TCP)
   - RFC 5425 (Transport of Syslog Messages over TLS)
+
+Basic Fowarding/Collection Checks
+- Test connectivity with remote server.
+```
+curl -X POST
+logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"
+```
+
+```
+nc -v <IP.ADDRESS> <PORT_NUMBER>
+```
+
+```
+sftp -i <KEY_FILE> user@<IP_ADDRESS>
+get -R .
+```
+
+```
+nslookup <DOMAIN_NANE>
+```
+
+Wireshark
 
 Log sorting/seperation
 - Regex different standards
