@@ -164,6 +164,7 @@ Logging Attributes
 - Missing fields (Adhere to schema)
 
 SIEM Data Ingestion
+Platforms + Methods:
 - Microsoft Sentinel 
 - Google Security Operations SIEM
 - Splunk ES
