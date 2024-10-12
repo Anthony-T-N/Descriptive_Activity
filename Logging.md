@@ -164,10 +164,10 @@ Logging Attributes
 - Missing fields (Adhere to schema)
 
 SIEM Data Ingestion
-Platforms + Methods:
+Platforms + Methods + Final Format:
 - Microsoft Sentinel 
 - Google Security Operations SIEM
-- Splunk ES
+- Splunk ES - HEC JSON
 
 Logging Validation
 - Sort by enviroment by sourcetype
