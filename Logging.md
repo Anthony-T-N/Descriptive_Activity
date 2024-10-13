@@ -172,6 +172,7 @@ Platforms + Methods + Final Format:
 Logging Validation
 - Sort by enviroment by sourcetype
 - Percentage of sourcetype from enviroment.
+- Determine forensic logs
 
 Log encryption
 SSL/TLS
@@ -183,3 +184,4 @@ Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
 Open-sourced focused
 
 TCP/IP Model
+3-way handdhake
