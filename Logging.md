@@ -165,7 +165,8 @@ Logging Attributes
 
 SIEM Data Ingestion
 Platforms + Methods + Final Format:
-- Microsoft Sentinel 
+- Microsoft Sentinel
+  - Logs ingestion API, Data collection transformation
 - Google Security Operations SIEM
 - Splunk ES - HEC JSON
 
@@ -184,4 +185,4 @@ Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
 Open-sourced focused
 
 TCP/IP Model
-3-way handdhake
+3-way handhake (TCP)
