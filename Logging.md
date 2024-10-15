@@ -168,7 +168,12 @@ Platforms + Methods + Final Format:
 - Microsoft Sentinel
   - Logs ingestion API, Data collection transformation
 - Google Security Operations SIEM
-- Splunk ES - HEC JSON
+  - Forwarders
+  - Ingestion APIs
+  - Google Cloud
+  - Data feeds
+- Splunk ES
+  - HEC JSON
 
 Logging Validation
 - Sort by enviroment by sourcetype
