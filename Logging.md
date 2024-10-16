@@ -31,6 +31,7 @@
   - Windows Event Logging
   - Nessus Scanners
   - Application Logging
+  - Nagios
 
 ```
 Endpoint Agent Deployment (Ansible)
