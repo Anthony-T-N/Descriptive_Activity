@@ -3,7 +3,7 @@
 - Microsoft AppLocker - Services - Microsoft Defender - Windows Error Reporting
 - https://github.com/TonyPhipps/SIEM/blob/master/Logging.md
 
-## Logger (How collection carried out)
+## Logger (How collection is carried out)
 
 ### Logging Sources
 
@@ -153,6 +153,8 @@ Logging Volume
   - Memory (Processing)
     - `free -gt`
   - CPU (Processing)
+
+## Logging Validation & Forma Ingestion (Collected Logs, Now What?)
 
 Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
