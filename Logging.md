@@ -115,21 +115,25 @@ Logging Formats
 Basic Fowarding/Collection Checks
 - Test connectivity with remote server.
 ```
-curl -X POST
-logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"
+$ curl -X POST
+$ logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"
 ```
 
 ```
-nc -v <IP.ADDRESS> <PORT_NUMBER>
+$ nc -v <IP.ADDRESS> <PORT_NUMBER>
 ```
 
 ```
-sftp -i <KEY_FILE> user@<IP_ADDRESS>
+$ sftp -i <KEY_FILE> user@<IP_ADDRESS>
 get -R .
 ```
 
 ```
-nslookup <DOMAIN_NANE>
+$ nslookup <DOMAIN_NANE>
+```
+
+```
+$ sudo tcpdump -i eth0 tcp
 ```
 
 Wireshark
