@@ -58,8 +58,6 @@ Endpoint Agent Deployment (Ansible)
     - Sagan
     - Cisco Firepower
     - McAfee Network Security Platform
-
-    Separate???
     - Zeek
       
   - Intrusion prevention system (IPS)
