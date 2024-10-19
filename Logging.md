@@ -158,15 +158,35 @@ Logging Volume
 
 ## Logging Validation & Forma Ingestion (Collected Logs, Now What?)
 
+Consistent Structure
+- Detecting irregularities in attributes
+```
 Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
-- Detecting irregularities in attributes
+```
+Field Types
+
 - Correct source environment
+Timestamp Format:
+```
 - ISO8601 (YYYY-MM-DDTHH:MM:SS.SSSZ) OR EPOCH Milliseconds
   - Detect logs published in the future
   - Missing sections
-- UTC (Clock Synchronization - NTP)
+  - UTC (Clock Synchronization - NTP)
+```
 - Missing fields (Adhere to schema)
+
+Log Level Validation
+
+Message Content
+
+Special Characters and Encoding Validation
+
+Length Validation
+
+
+Syslog Validation
+Schema Validation
 
 SIEM Data Ingestion
 Platforms + Methods + Final Format:
