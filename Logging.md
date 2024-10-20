@@ -200,10 +200,11 @@ Platforms + Methods + Final Format:
 - Splunk ES
   - HEC JSON
 
-Logging Validation
-- Sort by enviroment by sourcetype
-- Percentage of sourcetype from enviroment.
-- Determine forensic logs
+Logging Overview Validation
+- Sort by enviroment/group by sourcetype
+- Percentage of sourcetype/type of log from enviroment.
+- Determine logs of forensic value
+- Ingestion size/processing
 
 Log encryption
 SSL/TLS
