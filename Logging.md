@@ -158,6 +158,10 @@ Logging Volume
 
 ## Logging Validation & Forma Ingestion (Collected Logs, Now What?)
 
+```
+Error occurred at 2023-10-10 14:32:45 message userID: 12345
+```
+
 Consistent Structure
 - Detecting irregularities in attributes
 ```
@@ -188,7 +192,7 @@ Length Validation
 Syslog Validation
 Schema Validation
 
-SIEM Data Ingestion
+## SIEM Data Ingestion
 Platforms + Methods + Final Format:
 - Microsoft Sentinel
   - Logs ingestion API, Data collection transformation
