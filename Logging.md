@@ -158,6 +158,7 @@ Logging Volume
 
 ## Logging Validation & Forma Ingestion (Collected Logs, Now What?)
 
+Bad log example:
 ```
 Error occurred at 2023-10-10 14:32:45 message userID: 12345
 ```
