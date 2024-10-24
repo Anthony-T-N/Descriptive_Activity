@@ -193,6 +193,9 @@ Length Validation
 Syslog Validation
 Schema Validation
 
+Build basic parser (POC) 
+- Auditd log - Extract fields using regex.
+
 ## SIEM Data Ingestion
 Platforms + Methods + Final Format:
 - Microsoft Sentinel
