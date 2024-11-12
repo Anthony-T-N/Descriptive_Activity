@@ -96,6 +96,9 @@ Centralised event logging facility
 - /etc/rsyslog.conf
 - Log Protection, Log Retention
 
+
+Centralised event logging facility <-> Logging Network
+
 Logging Formats
 - JSON (JavaScript Object Notation)
 - Windows Event log
@@ -125,8 +128,7 @@ $ nslookup <DOMAIN_NANE>
 
 $ sudo tcpdump -i eth0 tcp
 ```
-
-Wireshark
+- Wireshark
 
 Log sorting/seperation
 - Regex different standards
@@ -134,10 +136,10 @@ Log sorting/seperation
 - Parsing of format
 
 Logging Volume
-- Work out maximum value 
+- Calculating baseline and possible maximum values
   - Networking (Bandwidth vs. Throughput)
     - ```
-      # On server (Listening for connections
+      # On server (Listening for connections)
       iperf -s
       # On client (Connect to server)
       iperf -c <server_ip_address>
