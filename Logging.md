@@ -8,6 +8,12 @@
 ### Logging Sources
 
 - Networking Infrastructure (Router/Switches/Firewalls)
+  ```
+  - Routers
+  - Switches
+  - Access Points
+  - Load balancers
+  ```
   - Sample configuration
   ```
   R1# configure terminal
@@ -65,6 +71,8 @@ Endpoint Agent Deployment (Ansible)
     - Snort
     - Check Point IPS
     - Palo Alto Networks Next-Generation Firewall (NGFW)
+   
+  - Identity and Access Management
 
 ### Log Types
 
