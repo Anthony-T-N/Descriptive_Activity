@@ -7,12 +7,15 @@
 
 ### Logging Sources
 
-- Networking Infrastructure (Router/Switches/Firewalls)
+- Networking Infrastructure (Router/Switches)
   ```
   - Routers
   - Switches
   - Access Points
   - Load balancers
+  - DHCP Server
+  - DNS Server
+  - VPN ???
   ```
   - Sample configuration
   ```
@@ -73,6 +76,12 @@ Endpoint Agent Deployment (Ansible)
     - Palo Alto Networks Next-Generation Firewall (NGFW)
    
   - Identity and Access Management
+    - Domain Controller
+    - Active Directory
+ 
+  - Firewall
+ 
+  - SIEM
 
 ### Log Types
 
