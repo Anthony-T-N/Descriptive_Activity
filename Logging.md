@@ -17,16 +17,21 @@
   - DNS Server
   - VPN ???
   ```
-  - Sample configuration
-  ```
-  R1# configure terminal
-  R1(config)# logging <Host IP Address>
-  R1(config)# logging trap error (Severity levels 0-7)
-  R1(config)# logging origin-id hostname
-  R1(config)# logging facility localx (Type of device identifier)
-  R1(config)# logging trap x.x.x.x transport tcp port x
-  R1(config)# logging on
-  ```
+  <details>
+    <summary>Sample configuration</summary>
+    
+    ```
+    R1# configure terminal
+    R1(config)# logging <Host IP Address>
+    R1(config)# logging trap error (Severity levels 0-7)
+    R1(config)# logging origin-id hostname
+    R1(config)# logging facility localx (Type of device identifier)
+    R1(config)# logging trap x.x.x.x transport tcp port x
+    R1(config)# logging on
+    ```
+  
+  </details>
+
 - Endpoint Devices & Application Logs (Windows/Linux Endpoints)
   - Sysmon (Windows)
     - Detailed logging than WEL: Hash collection, network connection details.
