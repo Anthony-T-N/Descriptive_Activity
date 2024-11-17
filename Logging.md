@@ -36,11 +36,17 @@
   - Sysmon (Windows)
     - Detailed logging than WEL: Hash collection, network connection details.
     - "Not hardened against an attacker with admin rights"
-  ```
-  Install: sysmon64 -i
-  Update configuration: sysmon64 -c [<configfile>]
-  Print schema: sysmon64 -s
-  ```
+
+    <details>
+      <summary>Sample configuration</summary>
+      
+      ```
+      Install: sysmon64 -i
+      Update configuration: sysmon64 -c [<configfile>]
+      Print schema: sysmon64 -s
+      ```  
+    </details>
+
   - Auditd (Linux)
   - Windows Event Logging
   - Nessus Scanners
