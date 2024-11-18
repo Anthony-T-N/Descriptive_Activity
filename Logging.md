@@ -53,18 +53,22 @@
   - Application Logging
   - Nagios
 
-```
-Endpoint Agent Deployment (Ansible)
-- name: Install Sysmon (Windows)
-  win_package:
-    path: C:\agent.exe
-    arguments: /install
-    state: present
- - name: Install Auditd (Linux)
-      apt:
-        name: audit
-        state: latest
-```
+<details>
+  <summary>Sample Ansible configuration</summary>
+  
+  ```
+  Endpoint Agent Deployment (Ansible)
+  - name: Install Sysmon (Windows)
+    win_package:
+      path: C:\agent.exe
+      arguments: /install
+      state: present
+   - name: Install Auditd (Linux)
+        apt:
+          name: audit
+          state: latest
+  ```
+ </details>
 
 - Security Controls
   - Intrusion detection system (IDS)
