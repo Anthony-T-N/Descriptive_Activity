@@ -15,7 +15,7 @@
   - Load balancers
   - DHCP Server
   - DNS Server
-  - VPN ???
+  - VPN Server
   ```
   <details>
     <summary>Sample configuration</summary>
