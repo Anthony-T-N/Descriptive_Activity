@@ -182,7 +182,7 @@ Logging Volume
     - `free -gt`
   - CPU (Processing)
 
-## Logging Validation & Forma Ingestion (Collected Logs, Now What?)
+## Logging Validation & Formal Ingestion (Collected Logs, Now What?)
 
 Bad log example:
 ```
