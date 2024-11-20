@@ -113,7 +113,7 @@
 - https://docs.zeek.org/en/master/logs/index.html
 - https://docs.splunk.com/Documentation/ES/7.3.2/Install/Datamodels
 
-Log Forwarding Agents (Bandwidth requirements)
+Log Forwarding Agents
 - SFTP
 - Winlogbeat
 - NXLog
@@ -162,12 +162,17 @@ $ sudo tcpdump -i eth0 tcp
 ```
 - Wireshark
 
+
+
 Log sorting/seperation
 - Regex different standards
 - Source enviroment tagging
 - Parsing of format
 
 Logging Volume
+
+- (Bandwidth requirements)
+
 - Calculating baseline and possible maximum values
   - Networking (Bandwidth vs. Throughput)
     - ```
@@ -217,6 +222,7 @@ Length Validation
 
 
 Syslog Validation
+
 Schema Validation
 
 Build basic parser (POC) 
