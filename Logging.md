@@ -134,7 +134,7 @@ Centralised event logging facility <-> Logging Network
 Logging Formats
 - JSON (JavaScript Object Notation)
 - Windows Event log
-- CEF (Common Event Format)
+- CEF (Common Event Format) `Version|Device Vendor|Device Product|Device Version|Signature ID|Name|Severity|Extension`
 - CLF (Common Log Format)
 - ELF (Extended Log Format)
 - XML (Extensible Markup Language)
