@@ -135,7 +135,7 @@ Logging Formats
 - JSON (JavaScript Object Notation)
 - Windows Event log
 - CEF (Common Event Format) `Version|Device Vendor|Device Product|Device Version|Signature ID|Name|Severity|Extension`
-- CLF (Common Log Format)
+- CLF (Common Log Format) `[Remote host address] - [Remote log name] [Username] [Timestamp] [Request and Protocol Version] [HTTP Status Code] [Bytes Sent]`
 - ELF (Extended Log Format)
 - XML (Extensible Markup Language)
 - CSV (Comma-separated values)
