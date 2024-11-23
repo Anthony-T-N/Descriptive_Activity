@@ -53,30 +53,34 @@
   - Application Logging
   - Nagios
 
-<details>
-  <summary>Sample Ansible configuration</summary>
-  
-  ```
-  Endpoint Agent Deployment (Ansible)
-  - name: Install Sysmon (Windows)
-    win_package:
-      path: C:\agent.exe
-      arguments: /install
-      state: present
-   - name: Install Auditd (Linux)
-        apt:
-          name: audit
-          state: latest
-  ```
- </details>
+  <details>
+    <summary>Sample Ansible configuration</summary>
+    
+    ```
+    Endpoint Agent Deployment (Ansible)
+    - name: Install Sysmon (Windows)
+      win_package:
+        path: C:\agent.exe
+        arguments: /install
+        state: present
+     - name: Install Auditd (Linux)
+          apt:
+            name: audit
+            state: latest
+    ```
+   </details>
 
 - Security Controls
   - Intrusion detection system (IDS)
-    - Suricata (NIDS)
-    ```
-    sudo nano /etc/suricata/suricata.yaml
-    alert http any any -> any any (http_response_line; content:"403 Forbidden"; sid:1;)
-    ```
+    <details>
+       <summary>Suricata (NIDS)</summary>
+      
+      ```
+      sudo nano /etc/suricata/suricata.yaml
+      alert http any any -> any any (http_response_line; content:"403 Forbidden"; sid:1;)
+      ```
+    </details>
+    
     - Wazuh agent (HIDS)
     - Snort
     - Sagan
