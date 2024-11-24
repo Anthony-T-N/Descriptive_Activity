@@ -33,13 +33,13 @@
   </details>
 
 - Endpoint Devices & Application Logs (Windows/Linux Endpoints)
-  - Sysmon (Windows)
-    - Detailed logging than WEL: Hash collection, network connection details.
-    - "Not hardened against an attacker with admin rights"
-
-    <details>
-      <summary>Sample configuration</summary>
-      
+   
+  <details>
+      <summary>Sysmon (Windows)</summary>
+    
+      - Detailed logging than WEL: Hash collection, network connection details.
+      - "Not hardened against an attacker with admin rights"
+  
       ```
       Install: sysmon64 -i
       Update configuration: sysmon64 -c [<configfile>]
@@ -47,11 +47,51 @@
       ```  
     </details>
 
-  - Auditd (Linux)
-  - Windows Event Logging
-  - Nessus Scanners
-  - Application Logging
-  - Nagios
+  <details>
+    <summary>Auditd (Linux)</summary>
+
+    ```
+    TEST
+    ```
+
+  </details>
+
+
+  <details>
+    <summary>Windows Event Logging</summary>
+
+    ```
+    TEST
+    ```
+
+  </details>
+
+  <details>
+    <summary>Nessus Scanners</summary>
+
+    ```
+    TEST
+    ```
+
+  </details>
+
+  <details>
+    <summary>Application Logging</summary>
+
+    ```
+    TEST
+    ```
+
+  </details>
+
+  <details>
+    <summary>Endpoint Monitoring</summary>
+
+    ```
+    TEST
+    ```
+
+  </details>
 
   <details>
     <summary>Sample Ansible configuration</summary>
