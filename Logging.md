@@ -34,7 +34,7 @@
 
 - Endpoint Devices & Application Logs (Windows/Linux Endpoints)
    
-  <details>
+  <details open>
       <summary>Sysmon (Windows)</summary>
     
       - Detailed logging than WEL: Hash collection, network connection details.
@@ -47,9 +47,11 @@
       ```  
     </details>
 
-  <details>
+  <details open>
     <summary>Auditd (Linux)</summary>
-
+    
+    <br>
+    
     ```
     TEST
     ```
@@ -57,7 +59,7 @@
   </details>
 
 
-  <details>
+  <details open>
     <summary>Windows Event Logging</summary>
 
     ```
@@ -66,7 +68,7 @@
 
   </details>
 
-  <details>
+  <details open>
     <summary>Nessus Scanners</summary>
 
     ```
@@ -75,7 +77,7 @@
 
   </details>
 
-  <details>
+  <details open>
     <summary>Application Logging</summary>
 
     ```
@@ -84,7 +86,7 @@
 
   </details>
 
-  <details>
+  <details open>
     <summary>Endpoint Monitoring</summary>
 
     ```
@@ -93,7 +95,7 @@
 
   </details>
 
-  <details>
+  <details open>
     <summary>Sample Ansible configuration</summary>
     
     ```
