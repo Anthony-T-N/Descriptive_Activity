@@ -144,6 +144,9 @@
  
   - SIEM
 
+### Asset Coverage
+- CMDB 
+
 ### Log Types
 
 | # | Splunk | ncsc | owasp |
@@ -209,7 +212,6 @@ $ sudo tcpdump -i eth0 tcp
 - Wireshark
 
 
-
 Log sorting/seperation
 - Regex different standards
 - Source enviroment tagging
@@ -265,7 +267,6 @@ Message Content
 Special Characters and Encoding Validation
 
 Length Validation
-
 
 Syslog Validation
 
