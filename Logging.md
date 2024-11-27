@@ -32,8 +32,17 @@
   
   </details>
 
-- Endpoint Devices & Application Logs (Windows/Linux Endpoints)
-   
+- Endpoint Devices & Application Log Sources (Windows/Linux Endpoints)
+
+  - Operating System Logs
+  - Application Logs
+  - Security Software Logs
+  - Network Logs
+  - User Activity Logs
+  - System Performance Logs
+  - Device Management Logs
+  - Hardware Logs
+    
   <details open>
       <summary>Sysmon (Windows)</summary>
     
