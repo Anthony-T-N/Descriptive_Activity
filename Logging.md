@@ -42,7 +42,19 @@
   - System Performance Logs
   - Device Management Logs
   - Hardware Logs
-    
+
+  | # | Endpoint Logs | Agent |  |
+  | - | ----------- | ----------- | ----------- |
+  | 1 | Operating System Logs  | a |  |
+  | 2 | Application Logs      | a | |
+  | 3 | Security Software Logs     | a |  |
+  | 4 | Network Logs  | a |  |
+  | 5 | User Activity Logs       | a | |
+  | 6 | System Performance Logs | a |  |
+  | 7 | Device Management Logs              | a  | |
+  | 8 | Hardware Logs              | a  | |
+
+  Collection: 
   <details open>
       <summary>Sysmon (Windows)</summary>
     
