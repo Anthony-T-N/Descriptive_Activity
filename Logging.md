@@ -34,25 +34,16 @@
 
 - Endpoint Devices & Application Log Sources (Windows/Linux Endpoints)
 
-  - Operating System Logs
-  - Application Logs
-  - Security Software Logs
-  - Network Logs
-  - User Activity Logs
-  - System Performance Logs
-  - Device Management Logs
-  - Hardware Logs
-
-  | # | Endpoint Logs | Agent |  |
-  | - | ----------- | ----------- | ----------- |
-  | 1 | Operating System Logs  | a |  |
-  | 2 | Application Logs      | a | |
-  | 3 | Security Software Logs     | a |  |
-  | 4 | Network Logs  | a |  |
-  | 5 | User Activity Logs       | a | |
-  | 6 | System Performance Logs | a |  |
-  | 7 | Device Management Logs              | a  | |
-  | 8 | Hardware Logs              | a  | |
+  | # | Endpoint Logs           | Agent  |
+  |---|-------------------------|--------|
+  | 1 | Operating System Logs   | Sysmon |
+  | 2 | Application Logs        | Sysmon |
+  | 3 | Security Software Logs  | Sysmon |
+  | 4 | Network Logs            | Sysmon |
+  | 5 | User Activity Logs      | Sysmon |
+  | 6 | System Performance Logs | Sysmon |
+  | 7 | Device Management Logs  | Sysmon |
+  | 8 | Hardware Logs           | Sysmon |
 
   Collection: 
   <details open>
@@ -170,15 +161,15 @@
 
 ### Log Types
 
-| # | Splunk | ncsc | owasp |
-| - | ----------- | ----------- | ----------- |
-| 1 | Application logs  | Application | Client software |
-| 2 | System logs       | Host | |
-| 3 | Security logs     | | NIDS, HIDS, Firewalls |
-| 4 | Network log data  | Network | |
-| 5 | Audit logs        | Authentication and access | |
-| 6 | Database log data | | Database applications |
-| 7 | Text              | Cloud  | |
+| # | Splunk            | ncsc                      | owasp                 |
+|---|-------------------|---------------------------|-----------------------|
+| 1 | Application logs  | Application               | Client software       |
+| 2 | System logs       | Host                      |                       |
+| 3 | Security logs     |                           | NIDS, HIDS, Firewalls |
+| 4 | Network log data  | Network                   |                       |
+| 5 | Audit logs        | Authentication and access |                       |
+| 6 | Database log data |                           | Database applications |
+| 7 | Text              | Cloud                     |                       |
 
 - https://docs.zeek.org/en/master/logs/index.html
 - https://docs.splunk.com/Documentation/ES/7.3.2/Install/Datamodels
