@@ -1,26 +1,30 @@
-## Collection
+## Collection (TO-DO)
 - Account lockout - Account modifications - Event collection - Account logon - Process tracking
 - Microsoft AppLocker - Services - Microsoft Defender - Windows Error Reporting
 - https://github.com/TonyPhipps/SIEM/blob/master/Logging.md
 
-## Logger (How collection is carried out)
+## Logger (How collection is carried out) (TO-DO)
 
 ### Logging Sources
 
 - Networking Infrastructure (Router/Switches)
 
-  List:
-  ```
-  - Routers
-  - Switches
-  - Access Points
-  - Load balancers
-  - DHCP Server
-  - DNS Server
-  - VPN Server
-  ```
   <details>
-    <summary>Sample configuration</summary>
+    <summary>Infrastructure List</summary>
+
+    ```
+    - Routers
+    - Switches
+    - Access Points
+    - Load balancers
+    - DHCP Server
+    - DNS Server
+    - VPN Server
+    ```
+  </details>
+
+  <details>
+    <summary>Sample Networking configuration</summary>
     
     ```
     R1# configure terminal
@@ -34,7 +38,7 @@
   
   </details>
 
-- Endpoint Devices & Application Log Sources (Windows/Linux Endpoints)
+- Endpoint Devices & Application Log Sources (Windows/Linux Endpoints) (TO-DO)
 
   | # | Endpoint Logs           | Agent  |
   |---|-------------------------|--------|
@@ -249,7 +253,7 @@ Logging Volume
     - `free -gt`
   - CPU (Processing)
 
-## Logging Validation & Formal Ingestion (Collected Logs, Now What?)
+## Logging Validation & Formal Ingestion (Collected Logs, Now What?) (TO-DO)
 
 Bad log example:
 ```
@@ -289,7 +293,7 @@ Schema Validation
 Build basic parser (POC) 
 - Auditd log - Extract fields using regex.
 
-## SIEM Data Ingestion
+## SIEM Data Ingestion (TO-DO)
 Platforms + Methods + Final Format:
 - Microsoft Sentinel
   - Logs ingestion API, Data collection transformation
