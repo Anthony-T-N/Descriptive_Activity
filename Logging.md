@@ -96,16 +96,7 @@
   </details>
 
   <details open>
-    <summary>Application Logging</summary>
-
-    ```
-    TEST
-    ```
-
-  </details>
-
-  <details open>
-    <summary>Endpoint Monitoring</summary>
+    <summary>Prometheus</summary>
 
     ```
     TEST
