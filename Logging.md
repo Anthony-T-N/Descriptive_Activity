@@ -3,7 +3,7 @@
 - Microsoft AppLocker - Services - Microsoft Defender - Windows Error Reporting
 - https://github.com/TonyPhipps/SIEM/blob/master/Logging.md
 
-## Logger (How collection is carried out) (TO-DO)
+## Logger (Collection Procedures) (TO-DO)
 
 ### Logging Sources
 
@@ -21,6 +21,7 @@
     - DNS Server
     - VPN Server
     - Filters
+    - Proxy Server
     
     ```
   </details>
