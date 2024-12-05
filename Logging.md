@@ -22,7 +22,7 @@
     - VPN Server
     - Filters
     - Proxy Server
-    
+    - Network taps
     ```
   </details>
 
