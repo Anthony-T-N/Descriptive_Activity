@@ -151,6 +151,7 @@
   - Identity and Access Management
     - Domain Controller
     - Active Directory
+    - LDAP servers
  
   - Firewall
  
