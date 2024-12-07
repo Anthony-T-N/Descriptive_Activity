@@ -27,7 +27,7 @@
   </details>
 
   <details>
-    <summary>Sample Networking configuration</summary>
+    <summary>Sample Router Logging configuration</summary>
     
     ```
     R1# configure terminal
