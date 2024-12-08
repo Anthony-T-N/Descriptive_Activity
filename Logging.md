@@ -157,7 +157,7 @@
  
   - SIEM
 
-### Asset Coverage
+### Asset Coverage (Understanding your assets)
 - CMDB 
 
 ### Log Types
@@ -189,7 +189,7 @@ Centralised event logging facility
 - Rsyslog (Listening)
 - /etc/rsyslog.conf
 - Log Protection, Log Retention
-
+- Cental point for logs
 
 Centralised event logging facility <-> Logging Network
 
