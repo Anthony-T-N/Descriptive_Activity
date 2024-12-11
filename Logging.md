@@ -261,6 +261,23 @@ Consistent Structure
 Logging Attributes
 - `<PRIORITY><VERSION_NUMBER><TIMESTAMP><HOSTNAME><APPLICATION><APPLICATION_TAG><PROCESS_ID><STRUCTURED_DATA><MESSAGE>`
 ```
+
+https://www.whitehouse.gov/wp-content/uploads/2021/08/M-21-31-Improving-the-Federal-Governments-Investigative-and-Remediation-Capabilities-Related-to-Cybersecurity-Incidents.pdf
+```
+- Properly formatted and accurate timestamp (millisecond granularity is ideal)
+- Event type (status code)
+- Device identifier (MAC address or other unique identifier)
+- Session/transaction ID
+- Autonomous system number
+- Source and destination IP (includes both IPv4 and IPv6)
+- Status code
+- Response time
+- Additional headers (e.g. HTTP headers)
+- The user ID, where appropriate
+- The command executed, where appropriate
+- A unique event identifier to assist with event correlation, where possible.
+```
+
 Field Types
 
 - Correct source environment
