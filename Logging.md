@@ -330,6 +330,9 @@ Certs
 Business:
 Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
 
+Balance
+ Securit vs
+
 Open-sourced focused
 
 TCP/IP Model
