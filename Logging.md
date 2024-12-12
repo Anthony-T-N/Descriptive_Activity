@@ -330,8 +330,8 @@ Certs
 Business:
 Consider (Workload Pricing, Entity Pricing, Ingest Pricing)
 
-Balance
- Securit vs
+Balance Act
+Security Value vs Resourcing
 
 Open-sourced focused
 
