@@ -57,7 +57,8 @@
   Collection: 
   <details open>
       <summary>Sysmon (Windows)</summary>
-    
+
+      - https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
       - Detailed logging than WEL: Hash collection, network connection details.
       - "Not hardened against an attacker with admin rights"
   
