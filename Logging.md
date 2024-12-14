@@ -186,11 +186,11 @@ Log Forwarding Agents
 - Windows Event Forwarding (WEF)
 - Stroom Agent
 
-Centralised event logging facility
+Centralised event logging facility (Cental point for logs)
 - Rsyslog (Listening)
 - /etc/rsyslog.conf
 - Log Protection, Log Retention
-- Cental point for logs
+- Syslog forwarding
 
 Centralised event logging facility <-> Logging Network
 
