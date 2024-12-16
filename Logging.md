@@ -58,7 +58,9 @@
   <details open>
       <summary>Sysmon (Windows)</summary>
 
-      - https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+      - Resource: https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+        - 30 Event IDs
+        - https://www.splunk.com/en_us/blog/security/threat-hunting-sysmon-event-codes.html
       - Detailed logging than WEL: Hash collection, network connection details.
       - "Not hardened against an attacker with admin rights"
   
