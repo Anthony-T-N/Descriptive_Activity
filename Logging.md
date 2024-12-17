@@ -87,7 +87,7 @@
     <summary>Windows Event Logging</summary>
 
     ```
-    TEST
+    TEST AGENTS
     ```
 
   </details>
