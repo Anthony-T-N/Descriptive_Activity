@@ -47,12 +47,12 @@
   |---|-------------------------|--------|
   | 1 | Operating System Logs   | Windows Event Forwarding (WEF), rsyslog, Auditd |
   | 2 | Application Logs        | Fluentd |
-  | 3 | Security Software Logs  | PLACE |
-  | 4 | Network Logs            | PLACE |
-  | 5 | User Activity Logs      | PLACE |
+  | 3 | Security Software Logs  | PLACEHOLDER |
+  | 4 | Network Logs            | PLACEHOLDER |
+  | 5 | User Activity Logs      | PLACEHOLDER |
   | 6 | System Performance Logs | Prometheus, Zabbix, Nagios |
-  | 7 | Device Management Logs  | PLACE |
-  | 8 | Hardware Logs           | PLACE |
+  | 7 | Device Management Logs  | PLACEHOLDER |
+  | 8 | Hardware Logs           | PLACEHOLDER |
 
   Collection: 
   <details open>
