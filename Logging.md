@@ -161,7 +161,10 @@
   - SIEM
 
 ### Asset Coverage (Understanding your assets)
-- CMDB 
+- CMDB
+- Critical assets
+- Networks of interest
+- Systems of interest
 
 ### Log Types
 
