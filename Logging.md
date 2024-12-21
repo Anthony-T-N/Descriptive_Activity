@@ -165,6 +165,8 @@
 - Critical assets
 - Networks of interest
 - Systems of interest
+- Accounts of interest
+- 
 
 ### Log Types
 
