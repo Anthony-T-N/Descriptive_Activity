@@ -161,12 +161,13 @@
   - SIEM
 
 ### Asset Coverage (Understanding your assets)
-- CMDB
+- CMDB (Configuration management database)
 - Critical assets
 - Networks of interest
 - Systems of interest
 - Accounts of interest
 - Glassbreak accounts
+- Mobile phones
 
 ### Log Types
 
