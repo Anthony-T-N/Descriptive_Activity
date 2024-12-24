@@ -168,6 +168,7 @@
 - Accounts of interest
 - Glassbreak accounts
 - Mobile phones
+- 
 
 ### Log Types
 
@@ -308,6 +309,7 @@ Special Characters and Encoding Validation
 Length Validation
 
 Syslog Validation
+- Syslog standard check
 
 Schema Validation
 
