@@ -301,6 +301,9 @@ Timestamp Format:
 - Missing fields (Adhere to schema)
 
 Log Level Validation
+- Warn
+- Danger
+- Info
 
 Message Content
 
