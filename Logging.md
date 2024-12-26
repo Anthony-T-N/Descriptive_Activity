@@ -301,6 +301,7 @@ Timestamp Format:
 - Missing fields (Adhere to schema)
 
 Log Level Validation
+- Drop irrelevant logs based on level
 - Warn
 - Danger
 - Info
