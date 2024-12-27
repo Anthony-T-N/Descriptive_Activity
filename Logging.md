@@ -168,7 +168,7 @@
 - Accounts of interest
 - Glassbreak accounts
 - Mobile phones
-- 
+- Logging systems/assets
 
 ### Log Types
 
