@@ -307,6 +307,7 @@ Log Level Validation
 - Info
 
 Message Content
+- Unknown encoding
 
 Special Characters and Encoding Validation
 
