@@ -308,6 +308,7 @@ Log Level Validation
 
 Message Content
 - Unknown encoding
+- Meaningful context
 
 Special Characters and Encoding Validation
 
