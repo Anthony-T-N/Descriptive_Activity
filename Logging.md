@@ -238,7 +238,7 @@ $ sudo tcpdump -i eth0 tcp
 Log sorting/seperation
 - Regex different standards
 - Source enviroment tagging
-- Parsing of format
+- Parsing of different format
 
 Logging Volume
 
@@ -313,6 +313,7 @@ Message Content
 Special Characters and Encoding Validation
 
 Length Validation
+- Too long = Potential Issue
 
 Syslog Validation
 - Syslog standard check
