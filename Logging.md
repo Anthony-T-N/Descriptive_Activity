@@ -169,6 +169,8 @@
 - Glassbreak accounts
 - Mobile phones
 - Logging systems/assets
+- Vlans of interest
+- Person of interest
 
 ### Log Types
 
