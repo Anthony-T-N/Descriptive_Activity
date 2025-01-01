@@ -221,6 +221,7 @@ Logging Formats
 
 Basic Fowarding/Collection Checks
 - Test connectivity with remote server.
+- Test transfer with remote server
 ```
 $ curl -X POST
 $ logger -n <IP.ADDRESS> -P <PORT_NUMBER> -d "Syslog Test Messsage"
@@ -235,7 +236,6 @@ $ nslookup <DOMAIN_NANE>
 $ sudo tcpdump -i eth0 tcp
 ```
 - Wireshark
-
 
 Log sorting/seperation
 - Regex different standards
