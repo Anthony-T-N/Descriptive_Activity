@@ -336,12 +336,14 @@ Platforms + Methods + Final Format:
   - Data feeds
 - Splunk ES
   - HEC JSON
+- 
 
 Logging Overview Validation
 - Sort by enviroment/group by sourcetype
 - Percentage of sourcetype/type of log from enviroment.
 - Determine logs of forensic value
 - Ingestion size/processing
+- organization sorting. Business unit
 
 Log encryption
 SSL/TLS
