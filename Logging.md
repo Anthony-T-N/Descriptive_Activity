@@ -204,6 +204,7 @@ Centralised event logging facility (Cental point for logs)
 - Syslog forwarding
 
 Centralised event logging facility <-> Logging Network
+Logging redundancy
 
 Logging Formats
 - JSON (JavaScript Object Notation)
@@ -240,7 +241,7 @@ $ sudo tcpdump -i eth0 tcp
 Log sorting/seperation
 - Regex different standards
 - Source enviroment tagging
-- Parsing of different format
+- Parsing of different formats
 
 Logging Volume
 
@@ -336,14 +337,14 @@ Platforms + Methods + Final Format:
   - Data feeds
 - Splunk ES
   - HEC JSON
-- 
+  
 
 Logging Overview Validation
 - Sort by enviroment/group by sourcetype
 - Percentage of sourcetype/type of log from enviroment.
 - Determine logs of forensic value
 - Ingestion size/processing
-- organization sorting. Business unit
+- Organization sorting. Business unit
 
 Log encryption
 SSL/TLS
