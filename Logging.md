@@ -171,6 +171,7 @@
 - Logging systems/assets
 - Vlans of interest
 - Person of interest
+- Internet-facing devices/Entry points
 
 ### Log Types
 
