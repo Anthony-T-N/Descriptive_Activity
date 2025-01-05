@@ -20,7 +20,6 @@
     - DHCP Server
     - DNS Server
     - VPN Server
-    - Filters
     - Proxy Server
     - Network taps
     ```
@@ -304,11 +303,17 @@ Timestamp Format:
 ```
 - Missing fields (Adhere to schema)
 
-Log Level Validation
+Log Level Validation 
+RFC 5424
 - Drop irrelevant logs based on level
-- Warn
-- Danger
-- Info
+- Emergency
+- Alert
+- Critical
+- Error
+- Warning
+- Notice
+- Informational
+- Debug
 
 Message Content
 - Unknown encoding
@@ -339,7 +344,6 @@ Platforms + Methods + Final Format:
 - Splunk ES
   - HEC JSON
   
-
 Logging Overview Validation
 - Sort by enviroment/group by sourcetype
 - Percentage of sourcetype/type of log from enviroment.
