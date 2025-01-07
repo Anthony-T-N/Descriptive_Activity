@@ -171,6 +171,7 @@
 - Vlans of interest
 - Person of interest
 - Internet-facing devices/Entry points
+- Public IP ranges vs Private
 
 ### Log Types
 
