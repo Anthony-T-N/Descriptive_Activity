@@ -2,6 +2,7 @@
 - Account lockout - Account modifications - Event collection - Account logon - Process tracking
 - Microsoft AppLocker - Services - Microsoft Defender - Windows Error Reporting
 - https://github.com/TonyPhipps/SIEM/blob/master/Logging.md
+- https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/enhanced-visibility-and-hardening-guidance-communications-infrastructure
 
 ## Logger (Collection Procedures) (TO-DO)
 
