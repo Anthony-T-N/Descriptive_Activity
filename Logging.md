@@ -77,7 +77,8 @@
     <br>
     
     ```
-    https://www.redhat.com/en/blog/configure-linux-auditing-auditd
+    https://www.redhat.com/en/blog/configure-linux-auditing-auditd\
+    sudo aureport -x
     ```
 
   </details>
