@@ -23,6 +23,7 @@
     - VPN Server
     - Proxy Server
     - Network taps
+    - NAS
     ```
   </details>
 
